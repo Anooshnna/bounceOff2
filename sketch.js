@@ -58,7 +58,7 @@ function draw() {
     }
 
     //write code to bounce off ball from the block4
-    if(block4.isTouching(ball) && ball.bonceOff(block4)){
+    if(block4.isTouching(ball) && ball.bounceOff(block4)){
         ball.shapeColor = "pink"
     }
     drawSprites();
